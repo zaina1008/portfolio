@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="900" viewBox="0 0 1800 900">
+  <rect width="100%" height="100%" fill="#F5F1E6"/>
+
+  <text x="900" y="420"
+        text-anchor="middle"
+        font-family="League Spartan, Arial, sans-serif"
+        font-size="180"
+        font-weight="700"
+        fill="#111111">
+    Zainab Almosawi
+  </text>
+
+  <line x1="430" y1="520" x2="690" y2="520"
+        stroke="#111111" stroke-width="4"/>
+  <line x1="1110" y1="520" x2="1370" y2="520"
+        stroke="#111111" stroke-width="4"/>
+
+  <text x="900" y="545"
+        text-anchor="middle"
+        font-family="Cormorant Garamond, Georgia, serif"
+        font-size="110"
+        font-style="italic"
+        fill="#111111">
+    Portfolio
+  </text>
+</svg>
