@@ -73,8 +73,9 @@ footer {
   position: sticky;
   top: 0;
 }
+
 .link:hover {
-  scale: 1.1;
+  scale: 1.05;
 }
 .link_2:hover {
   scale: 1.1;
@@ -91,7 +92,7 @@ footer {
 .link_2 {
   width: fit-content;
   padding: 7px;
-  padding-inline: 30px;
+  padding-inline: 50px;
   border-radius: 30px;
   box-shadow: 2px 4px 3px var(--color-bg3);
   border: 1px solid var(--color-bg2);
@@ -106,7 +107,7 @@ footer {
   grid-template-columns: auto auto;
   padding: 20px;
   border-radius: 50px;
-
+  box-shadow: 2px 4px 3px var(--color-bg3);
   gap: 10px;
   margin-bottom: 60px;
 }
@@ -137,6 +138,24 @@ footer {
   margin: auto;
   width: 80%;
 }
+
+button {
+  margin-top: 10px;
+  margin-left: 50px;
+  padding: 3px;
+  padding-inline: 10px;
+  box-shadow: 2px 4px 3px var(--color-bg3);
+  border: 1px solid var(--color-bg2);
+}
+button:hover {
+  scale: 1.1;
+}
+
+#more {
+  display: none;
+  margin-top: 15px;
+}
+
 .ver2_2 {
   height: auto;
   margin-bottom: 60px;
@@ -165,6 +184,177 @@ p {
 .footer_2 {
   background-color: var(--color-bg1);
 }
+
+/* ------------------about me----------------------- */
+.big_red {
+  width: 90%;
+  margin: auto;
+  background-color: var(--color-bg3);
+  margin-bottom: 20px;
+  border-radius: 30px;
+  position: relative;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+.red_img {
+  margin: auto;
+  position: relative;
+}
+.red_img img {
+  padding: 25px;
+}
+
+.meimg img {
+  border-radius: 100%;
+}
+
+.meimg {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: fit-content;
+  margin: auto;
+
+  /* display: flex;
+  justify-content: space-evenly; */
+}
+
+.info {
+  grid-template-columns: 3/5;
+  color: var(--color-bg1);
+}
+.mail_me a {
+  text-decoration: none;
+  color: var(--color-bg1);
+}
+
+.red_2 {
+  background-color: var(--color-bg3);
+  color: var(--color-bg1);
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+  padding: 30px;
+  border-radius: 30px;
+}
+.red_2 h2 {
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.red_2 div {
+  margin-bottom: 20px;
+}
+
+.pac_h3 {
+  width: 80%;
+  margin: auto;
+  /* font-size: 15px; */
+}
+
+.design_pac {
+  width: 90%;
+  /* background-color: var(--color-bg3); */
+  margin: auto;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 30px;
+  margin-bottom: 100px;
+  gap: 50px;
+}
+
+.design_pack {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+
+.design_pack > img:first-child {
+  width: 100%;
+}
+
+.icon {
+  position: absolute;
+  width: 50px;
+}
+.figma {
+  top: 32%;
+  left: 25%;
+}
+
+.ps {
+  top: 30%;
+  left: 45%;
+}
+
+.ai {
+  top: 30%;
+  left: 65%;
+}
+
+.html {
+  top: 55%;
+  left: 25%;
+}
+
+.css {
+  top: 55%;
+  left: 45%;
+}
+
+.js {
+  top: 55%;
+  left: 65%;
+}
+
+.figma {
+  transform: rotate(-10deg);
+}
+.ps {
+  transform: rotate(8deg);
+}
+.ai {
+  transform: rotate(-5deg);
+}
+.html {
+  transform: rotate(-10deg);
+  margin-right: 20px;
+}
+
+.css {
+  transform: rotate(8deg);
+  margin-right: 20px;
+}
+
+.js {
+  transform: rotate(-10deg);
+  margin: 10px;
+}
+
+.icon {
+  margin-top: 20%;
+  width: 18%;
+  margin-right: 50px;
+}
+
+.icon:hover {
+  scale: 1.1;
+}
+
+.info-text {
+  padding-top: 20px;
+  width: fit-content;
+}
+
+.header_2 {
+  background-color: var(--color-bg2);
+}
+
 /* ------------ burger menu -------------- */
 
 @media screen and (max-width: 800px) {
@@ -233,5 +423,45 @@ p {
     /* font-size: 24px; */
   }
 
-  /* ------------slide -------------- */
+  /* ------------about me -------------- */
+  .info h2,
+  p {
+    font-size: smaller !important;
+  }
+  .meimg img {
+    width: 90%;
+  }
+
+  .grid_1-1 {
+    padding-inline: 20px;
+  }
+
+  /* ------------------slide ----------------  */
+  /* Next & previous buttons */
+
+  .slideshow-container {
+    position: relative;
+  }
+
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+  }
+
+  .prev {
+    left: 10px;
+  }
+
+  .next {
+    right: 10px;
+  }
 }

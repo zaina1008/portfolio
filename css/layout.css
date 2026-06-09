@@ -158,4 +158,43 @@ select,
     margin-bottom: 30px;
     margin-top: -30px;
   }
+
+  button {
+    margin-top: 10px;
+    margin-left: 65px;
+  }
+
+  /* ---------------- about me ------------------- */
+  .meimg img {
+    border-radius: 100%;
+  }
+
+  .meimg {
+    gap: 20px;
+  }
+
+  .grid_1-1 {
+    gap: 300px;
+  }
+
+  .red_2_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 50px;
+    row-gap: 30px;
+  }
+
+  .div_1 {
+    grid-column: 1/7;
+  }
+  .div_2 {
+    grid-column: 2/8;
+  }
+  .div_3 {
+    grid-column: 3/9;
+  }
+
+  .design_pac {
+    width: 50%;
+  }
 }

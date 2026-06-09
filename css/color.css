@@ -11,6 +11,7 @@
   --font-2: "Oswald", sans-serif;
   h1 {
     font-family: var(--font-1);
+    font-size: 45px;
   }
   h2 {
     font-family: var(--font-1);
@@ -29,5 +30,15 @@
   a {
     font-family: var(--font-1);
     font-size: larger;
+  }
+  li {
+    font-size: larger;
+  }
+
+  #requirement {
+    font-family: var(--font-2);
+  }
+  h3 {
+    font-family: var(--font-2);
   }
 }
