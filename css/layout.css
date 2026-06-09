@@ -61,6 +61,17 @@ select,
 /* --------------------------------------------------------------------- */
 
 @media (min-width: 800px) {
+  p {
+    font-family: var(--font-2);
+
+    font-size: 24px !important;
+  }
+
+  .ver1_p {
+    padding-top: 20px;
+    font-family: var(--font-2);
+    font-size: 14px !important;
+  }
   /* ------------------- header --------------- */
   .menu {
     display: flex;
@@ -76,8 +87,11 @@ select,
   .dropDownMenu {
     display: none;
     position: absolute;
-
+    background-color: var(--color-bg1);
     list-style: none;
+  }
+  .dropDownMenu a {
+    /* padding: 50px; */
   }
 
   /* Show on hover */
@@ -88,9 +102,6 @@ select,
   .dropDownMenu li {
     padding: 3px;
     white-space: nowrap;
-  }
-
-  .firstimg img {
   }
 
   /* ------------- slide --------------- */
@@ -117,5 +128,34 @@ select,
   .blogo {
     width: 220px;
     display: block;
+  }
+
+  /* ----------------tema 2---------------------------- */
+  .ver1 {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    width: 90%;
+    margin-bottom: 100px;
+  }
+
+  .ver1_3 {
+    width: 500px;
+  }
+
+  .ver2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+    width: 90%;
+  }
+  .ver2_1 {
+    grid-column: 2/3;
+    grid-row: 1;
+  }
+
+  .ver2_2_2 {
+    margin-bottom: 30px;
+    margin-top: -30px;
   }
 }

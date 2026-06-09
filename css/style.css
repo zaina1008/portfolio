@@ -10,6 +10,7 @@
 
 .menu a {
   text-decoration: none;
+  color: black;
 }
 .dropDownMenu {
   list-style: none;
@@ -46,6 +47,124 @@ footer {
   padding: 20px;
 }
 
+/* ------------------------------ tema 2 ----------------------------------- */
+.h1_2 {
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.imgver1 {
+  width: 80%;
+  margin: auto;
+}
+.imgver1 img {
+  border-top-right-radius: 25%;
+}
+
+.link,
+.link_2 {
+  width: 80%;
+  /* border: 1px solid black; */
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: var(--color-bg3);
+  padding: 4px;
+  position: sticky;
+  top: 0;
+}
+.link:hover {
+  scale: 1.1;
+}
+.link_2:hover {
+  scale: 1.1;
+}
+
+.link a {
+  text-decoration: none;
+  color: var(--color-bg1);
+}
+.link_2 a {
+  text-decoration: none;
+  color: var(--color-bg1);
+}
+.link_2 {
+  width: fit-content;
+  padding: 7px;
+  padding-inline: 30px;
+  border-radius: 30px;
+  box-shadow: 2px 4px 3px var(--color-bg3);
+  border: 1px solid var(--color-bg2);
+  margin-bottom: 40px;
+}
+
+.ver1_3 {
+  border: 1px solid var(--color-bg3);
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+  border-radius: 50px;
+
+  gap: 10px;
+  margin-bottom: 60px;
+}
+.ver1_3 img {
+  border-radius: 30px;
+}
+.ver1_3 p {
+  font-size: small;
+  /* padding-top: 20px; */
+}
+
+.ver2 img {
+  width: 80%;
+  margin: auto;
+}
+.ver2_2 h2 {
+  margin: auto;
+  width: fit-content;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.p2 {
+  padding-top: 10px;
+}
+
+.ver2_2 p {
+  margin: auto;
+  width: 80%;
+}
+.ver2_2 {
+  height: auto;
+  margin-bottom: 60px;
+}
+p {
+  font-family: var(--font-1);
+}
+
+.ver2_2_2 {
+  margin: auto;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.ver2_2_2 h2 {
+  margin: auto;
+  width: fit-content;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.main_2 {
+  background-color: var(--color-bg2);
+  padding-block: 30px;
+}
+.footer_2 {
+  background-color: var(--color-bg1);
+}
 /* ------------ burger menu -------------- */
 
 @media screen and (max-width: 800px) {

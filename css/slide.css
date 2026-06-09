@@ -61,7 +61,7 @@
 .img_curve img {
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
-  border: 1px solid black;
+  border: 1px solid var(--color-bg3);
 }
 
 .text {
