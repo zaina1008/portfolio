@@ -9,6 +9,7 @@
 
   --font-1: "Bebas Neue", sans-serif;
   --font-2: "Oswald", sans-serif;
+  /* 
   h1 {
     font-family: var(--font-1);
     font-size: 45px;
@@ -20,7 +21,6 @@
   p {
     font-family: var(--font-2);
     font-size: large;
-    /* font-size: 24px; */
   }
 
   .ver1_p {
@@ -40,5 +40,41 @@
   }
   h3 {
     font-family: var(--font-2);
+  } */
+
+  p {
+    font-family: var(--font-2);
+    /* font-size: large; */
+  }
+  h1 {
+    font-family: var(--font-1);
+    font-size: 40px;
+  }
+  h2 {
+    font-family: var(--font-2);
+    font-size: 30px;
+  }
+  ul {
+    font-family: var(--font-1);
+    font-size: 24px;
+  }
+  .footer_1 p {
+    font-family: var(--font-1);
+  }
+  .footer_1 a {
+    color: black;
+    font-family: var(--font-2);
+  }
+  .footer_2 a {
+    color: black;
+    font-family: var(--font-2);
+  }
+  .footer_2 p {
+    font-family: var(--font-1);
+  }
+  .insta a {
+  }
+  .text a {
+    color: var(--color-bg3);
   }
 }

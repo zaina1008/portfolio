@@ -89,9 +89,12 @@ select,
     position: absolute;
     background-color: var(--color-bg1);
     list-style: none;
+    z-index: 9999;
+    width: 200px;
   }
-  .dropDownMenu a {
-    /* padding: 50px; */
+
+  #dropm {
+    background-color: var(--color-bg2);
   }
 
   /* Show on hover */
@@ -126,7 +129,7 @@ select,
 
   /*  -------------  footer -------------------  */
   .blogo {
-    width: 220px;
+    width: 300px;
     display: block;
   }
 

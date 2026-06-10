@@ -22,14 +22,15 @@
 footer {
   display: flex;
   flex-direction: row;
-
-  justify-content: space-around;
-
-  padding-block: 20px;
+  justify-content: space-between;
+  padding: 40px;
 }
 
 .header_1 {
   background-color: var(--color-bg1);
+  padding-bottom: 20px;
+}
+.header_2 {
   padding-bottom: 20px;
 }
 
@@ -64,7 +65,7 @@ footer {
 .link,
 .link_2 {
   width: 80%;
-  /* border: 1px solid black; */
+
   margin: auto;
   text-align: center;
   margin-bottom: 20px;
@@ -116,7 +117,6 @@ footer {
 }
 .ver1_3 p {
   font-size: small;
-  /* padding-top: 20px; */
 }
 
 .ver2 img {
@@ -143,8 +143,6 @@ button {
   margin-top: 10px;
   margin-left: 50px;
   padding: 3px;
-  padding-inline: 10px;
-  box-shadow: 2px 4px 3px var(--color-bg3);
   border: 1px solid var(--color-bg2);
 }
 button:hover {
@@ -218,9 +216,6 @@ p {
   grid-template-columns: 2fr 1fr;
   width: fit-content;
   margin: auto;
-
-  /* display: flex;
-  justify-content: space-evenly; */
 }
 
 .info {
@@ -264,7 +259,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   border-radius: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
   gap: 50px;
 }
 
@@ -346,13 +341,30 @@ p {
   scale: 1.1;
 }
 
-.info-text {
-  padding-top: 20px;
-  width: fit-content;
-}
-
 .header_2 {
   background-color: var(--color-bg2);
+}
+
+#efficiency {
+  /* background-color: var(--color-bg2); */
+  width: fit-content;
+  margin-block: 10px;
+}
+
+.info-text {
+  background-color: var(--color-bg3);
+  width: fit-content;
+  padding: 20px;
+  color: var(--color-bg1);
+  border-radius: 30px;
+}
+
+.menu li.active > a {
+  border-bottom: 2px solid black;
+}
+
+.menu li#active > a {
+  border-bottom: 2px solid black;
 }
 
 /* ------------ burger menu -------------- */
@@ -363,6 +375,7 @@ p {
     height: 20px;
     cursor: pointer;
     margin: auto;
+    background-color: var(--color-bg3);
   }
 
   .burger .line {
